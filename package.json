@@ -1,0 +1,14 @@
+{
+  "name": "tt-careers-api",
+  "version": "1.0.0",
+  "description": "list of open positions",
+  "main": "server.js",
+  "repository": "locahost:4000",
+  "author": "vlado@vlado1.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "graphql": "^15.5.0",
+    "apollo-server": "^2.21.1"
+  }
+}

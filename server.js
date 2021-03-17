@@ -1,6 +1,6 @@
 const { ApolloServer } = require("apollo-server");
-const typeDefs = require("./schema");
-const resolvers = require("./resolvers");
+const typeDefs = require("./src/schema/schema");
+const resolvers = require("./src/resolvers/resolvers");
 const server = new ApolloServer({ typeDefs, resolvers });
 
 server.listen().then(({ url }) => {
